@@ -7,14 +7,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-<style>
-    .immagine-tonda {
-      width: 5.4rem; /* Larghezza dell'immagine */
-      height: 5.4rem; /* Altezza dell'immagine */
-      border-radius: 50%; /* Rende l'immagine circolare */
-      object-fit: cover; /* Adatta l'immagine al contenitore */
-    }
-  </style>
+.immagine-tonda {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .immagine-tonda {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .immagine-tonda {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
 	</head>
 	<body class="is-preload">
 
@@ -109,7 +122,7 @@
 <article id="carriera-politica">
   <h2 class="major">La carriera politica e <br>
 il socialismo riformista</h2>
-  <span class="image main"><img src="images/carriera.png" alt="Carriera politica" /></span>
+  <span class="image main"><img src="images/carriera.jpg" alt="Carriera politica" /></span>
 	  <p style="text-align: justify;">Come abbiamo visto, Matteotti iniziò la sua carriera politica a livello locale, 	diventando successivamente consigliere comunale e provinciale a Rovigo.
 	Qui si distinse per la sua abilità nell’amministrare le leghe contadine e le cooperative, 	dimostrando un grande impegno nella gestione delle questioni sociali ed economiche.<br>
 	<br>	
